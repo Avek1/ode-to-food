@@ -1,0 +1,16 @@
+﻿@model OdeToFood.Models.AboutModel
+@{
+    ViewBag.Title = "About";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@Model.Name</h3>
+
+<div>Location: @Model.Location</div>
+
+<!-- 
+    Once the model has been created, a new model instantiated, values assigned, 
+    and the instantiated model passed into the view, 
+    you can pull in the mode using '[at]model (lowercase m) and then insert the properties
+    into an html element using [at]Model.Whatever (uppercase m).
+    NOTE: this is the quicky way to do things. 
+    -->
